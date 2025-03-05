@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const baseURL = 'http://216.250.13.97:3010/api/v1'
+const baseURL = 'https://tradinghouse.gov.tm/api/v1'
 const fileURL = process.env.IMAGE_URL
 
 export const request = async ({ url, method = 'post', headers = {}, params = {}, data = {}, file = false }) => {
