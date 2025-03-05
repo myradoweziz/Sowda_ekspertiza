@@ -1,0 +1,45 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --background: #f0f3e8;
+  --background-second: #f7f7f7;
+  --button-bg: #eff7eb;
+  --border: #c1c1c1;
+  --primary: #5aa832;
+  --primary-dark: #343632;
+  --primary-100: #f9fdf7;
+  --primary-200: #e2f3d8;
+  --primary-300: #caeab9;
+  --primary-400: #b3e09a;
+  --primary-500: #9cd77b;
+  --primary-600: #84ce5c;
+  --primary-700: #6cc53d;
+  --error: #a83232;
+  --error-100: #fdf7f7;
+  --error-200: #f3d8d8;
+  --error-300: #eab9b9;
+  --error-400: #e09a9a;
+  --error-500: #d77b7b;
+  --error-600: #ce5c5c;
+  --error-700: #c53d3d;
+  --connected: #3268a8;
+  --connected-100: #f7fafd;
+  --connected-200: #d8e5f3;
+  --connected-300: #b9d0ea;
+  --connected-400: #9abbe0;
+  --connected-500: #7ba6d7;
+  --connected-600: #5c91ce;
+  --connected-700: #3d7cc5;
+  --secondary: #474747;
+  --secondary-100: #fbfbfb;
+  --secondary-200: #FCFCFC;
+  --secondary-300: #d3d3d3;
+  --secondary-400: #bfbfbf;
+  --secondary-500: #ababab;
+  --secondary-600: #979797;
+  --secondary-700: #838383;
+  --secondary-800: #6f6f6f;
+  --secondary-900: #5b5b5b;
+}
+body[data-theme='dark'] {
+}

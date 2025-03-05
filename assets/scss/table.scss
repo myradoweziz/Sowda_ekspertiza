@@ -1,0 +1,132 @@
+table {
+	width: 100%;
+	border-collapse: separate;
+	border-spacing: 0px 2px;
+	thead {
+		tr {
+			th {
+				font-weight: 700;
+				font-size: 16px;
+				line-height: 20px;
+				letter-spacing: 0.05em;
+				text-transform: capitalize;
+				color: var(--text);
+				padding: 10px 20px;
+				text-align: left;
+				background-color: var(--background);
+				position: sticky;
+				top: 0px;
+				&:last-child {
+				}
+				.admin-button {
+					width: 100%;
+					display: flex;
+					justify-content: flex-end;
+					.admin-btn {
+						display: flex;
+						width: fit-content;
+						align-items: center;
+						padding: 8px 20px 8px 10px;
+						border-radius: 2px;
+						cursor: pointer;
+						background-color: #05659b;
+						.admin-word {
+							font-weight: 500;
+							font-size: 14px;
+							line-height: 24px;
+							letter-spacing: 0.135px;
+							color: var(--white);
+						}
+					}
+				}
+			}
+		}
+	}
+	tbody {
+		tr {
+			td {
+				background-color: var(--white);
+				padding: 10px 20px;
+				text-align: left;
+				vertical-align: middle;
+				&.title {
+					font-size: 14px;
+					font-weight: 600;
+					line-height: 16.41px;
+					letter-spacing: 0.05em;
+					text-transform: uppercase;
+					color: #333333;
+				}
+				&.text {
+					font-size: 14px;
+					font-weight: 600;
+					line-height: 16.41px;
+					letter-spacing: 0.05em;
+					color: #333333;
+				}
+				img {
+					width: 70px;
+					height: 70px;
+					border-radius: 10px;
+					object-fit: cover;
+					object-position: center;
+				}
+				&.icon {
+					div {
+						width: 70px !important;
+						height: 70px !important;
+					}
+				}
+				&.data {
+					font-size: 14px;
+					font-weight: 600;
+					line-height: 16.41px;
+					letter-spacing: 0.05em;
+					color: #333333;
+					text-transform: uppercase;
+				}
+				&.body-icon {
+					cursor: pointer;
+					width: 40px;
+					height: fit-content;
+				}
+			}
+		}
+	}
+}
+
+.cell {
+	// .cell__icon
+	display: flex;
+	align-items: flex-start;
+	&__icon {
+		margin-right: 10px;
+	}
+
+	// .cell__content
+
+	&__content {
+		display: flex;
+		flex-direction: column;
+		min-width: 138px;
+	}
+
+	// .cell__content-top
+
+	&__content-top {
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 20px;
+		color: var(--text);
+	}
+
+	// .cell__content-bottom
+
+	&__content-bottom {
+		margin-top: 2px;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 20px;
+		color: #667085;
+	}
+}
